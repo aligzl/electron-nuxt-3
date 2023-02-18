@@ -1,0 +1,22 @@
+{
+  "name": "electron-nuxt-3",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "electron .",
+    
+  },
+  "devDependencies": {
+    "nuxt": "^3.2.2",
+    "electron": "^23.0.0",
+    "nuxt-socket-io": "^3.0.12"
+  }
+}
